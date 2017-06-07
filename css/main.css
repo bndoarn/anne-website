@@ -1,3 +1,56 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+.text-bold {
+	font-weight: 700;
+}
+
+#portfolio, #about, #contact {
+	padding-top: 32px;
+}
+
+.header {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 15px;
+	font-size: 16px;
+}
+
+.name {
+	margin-top: 0;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.nav {
+	margin-top: 8px;
+}
+
+.list {
+	width: 100%;
+}
+
+.list-item {
+	width: 70px;
+}
+
+.list, .list-item {
+	display: inline-block;
+	margin: 0 32px;
+}
+
 hr {
 	border-color: #272822;
 	border-width: 20px;
@@ -9,14 +62,47 @@ hr {
 	padding: 0;
 }
 
-.header {
+.background-header {
 	background-color: #FEF5E6;
 	height: calc(100vh - 20px);
 }
 
-.designs {
+#designs {
 	padding-left: 10%;
 	padding-right: 10%;
+}
+
+#about {
+	background-color: #69C0C5;
+	color: white;
+	padding-bottom: 32px;
+}
+
+.right {
+	position: absolute;
+	right: 0;
+	padding-right: 15px;
+}
+
+#picutreAndForm {
+	padding-top: 16px;
+}
+
+#sendButton {
+	background-color: #69C0C5;
+    border: none;
+    color: white;
+    padding: 10px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#sendButton:hover {
+	background-color: #5cadb2;
 }
 
 .padding-less {
@@ -26,9 +112,9 @@ hr {
 }
 
 .footer {
-	background-color: #272822;
-	color: white;
+	background-color: #d8d8d8;
+	color: black;
 	margin-top: 10%;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 }
